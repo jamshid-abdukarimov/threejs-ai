@@ -36,7 +36,7 @@ const Customizer = () => {
             </div>
           </motion.div>
 
-          <motion.dev
+          <motion.div
             className="absolute top-5 right-5 z-10"
             {...fadeAnimation}
           >
@@ -46,7 +46,7 @@ const Customizer = () => {
               handleClick={() => (state.intro = true)}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
-          </motion.dev>
+          </motion.div>
 
           <motion.div
             className="filtertabs-container"
